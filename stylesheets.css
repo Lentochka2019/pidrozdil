@@ -1,0 +1,94 @@
+h2
+{
+	padding:20px
+}
+.rectorat-struct img.attachment-middle.size-middle.wp-post-image {
+    max-width: 200px;
+}
+.rectorat-struct {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    width: 45%;
+}
+.content-rectorat
+{
+	width:90%;
+	margin:0 auto
+}
+span.posada-text {
+ 
+    font-weight: bold;
+}
+.staf_card
+{
+	display: flex;
+}
+.staf_card_member
+{
+	display: flex; flex-direction: column; width: 30%;
+}
+.staf_card_member
+{
+ width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1200px)
+{
+	div#content {    padding: 0; }
+	.content-rectorat {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 768px)
+{
+	.rectorat-struct>div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+   width: auto;
+}
+.rectorat-struct {
+    display: block;    
+    width: 100%;
+	 padding: 20px 0;
+}
+}
+@media screen and (max-width: 400px)
+{
+	.rectorat-struct {
+    
+       
+}
+		.rectorat-struct>div {
+    display: block;
+    vertical-align: top;
+    padding: 10px;
+   width: auto;
+}
+	
+	.dannie {
+    padding-top: 20px;
+}
+	.content-rectorat
+{
+	width:100%;
+	
+}
+.dannie {
+    padding-top: 20px;
+}
+.photo-str {
+    text-align: center;
+}
+
+
+span.posada-text {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+}
